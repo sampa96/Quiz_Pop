@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main{
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+div {
+  background-color: antiquewhite;
+  text-align: center;
+  
+}
+
+button_Music{
+  font-size: 2rem;
+  width: 300px;
+  background-color: rgb(252, 95, 4);
+  margin-right: 20px;
+  
+}
+
+button_ModernArt{
+  font-size: 2rem;
+  width: auto;
+  background-color: blue;
+  margin-right: 20px;
+  
+}
+
+button_Coding{
+  font-size: 2rem;
+  width: 4rem;
+  background-color: rgb(2, 204, 66);
+  margin-right: 20px;
+  
+}
+

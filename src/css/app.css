@@ -1,0 +1,55 @@
+  
+  *{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  html,
+  body{
+    margin: 0px;
+    padding:0px;
+    background-color: blanchedalmond;
+  }
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    }
+
+#quizOption {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+button{
+    font-size: 2rem;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    color: black;
+  }
+
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+button[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+
+h1{
+ margin-top: 5rem;
+ font-size: 3rem;
+}

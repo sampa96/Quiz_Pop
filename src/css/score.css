@@ -1,0 +1,65 @@
+#scorebanner{
+    display: flex;
+    width:50%;
+    font-size: 4rem;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: orange; 
+    
+    };
+
+.yourscore{
+    font-size: 7rem;
+}
+
+#button_submit{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: right;
+    background-color: grey;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 200px;
+    height: 40px;
+    border-color: brown;
+    border-style: ridge;
+    margin-bottom: 5rem;
+}
+
+#button_playagain{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    background-color: grey;
+    width: 200px;
+    height: 40px;
+    border-color: brown;
+    border-style: ridge;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-size: 5rem;
+    
+
+}
+
+form{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
